@@ -14,7 +14,7 @@ export function ChatBox({
   message,
   children,
 }: PropsWithChildren<ChatBoxProps>) {
-  const chatBox = useRef<HTMLDivElement>()
+  const chatBox = useRef<HTMLDivElement>(null)
   const copyMessage = async () => {
     if (type === 'sender') return
     try {

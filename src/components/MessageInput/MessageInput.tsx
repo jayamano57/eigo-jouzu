@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 interface MessageInputProps {
   message: string
   responding?: boolean
-  onChange: () => void
+  onChange: (val: string) => void
   onClick: () => void
 }
 

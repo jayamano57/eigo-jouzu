@@ -3,7 +3,7 @@ import { notifications } from '@mantine/notifications'
 const show = (title: string, description?: string) => {
   notifications.show({
     title: title,
-    description: description,
+    message: description,
     styles: (theme) => ({
       root: {
         backgroundColor: theme.white,

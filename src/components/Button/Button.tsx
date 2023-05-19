@@ -1,6 +1,7 @@
 import { Button as MantineButton } from '@mantine/core'
+import { PropsWithChildren } from 'react'
 
-export function Button({ children }) {
+export function Button({ children }: PropsWithChildren) {
   return (
     <MantineButton
       fullWidth
