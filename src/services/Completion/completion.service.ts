@@ -13,7 +13,7 @@ export class CompletionServiceImpl {
         'The input prompt did not yield any results. Try a different prompt.'
       )
 
-    return result.choices[0].text as string
+    return result.choices[0].text.trim() as string
   }
 }
 
