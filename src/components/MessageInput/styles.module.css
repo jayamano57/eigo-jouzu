@@ -1,0 +1,29 @@
+.messageInput {
+  border: none;
+  background: #b7cea7;
+  border-radius: 4px;
+  display: flex;
+  max-height: 56px;
+}
+
+.textarea {
+  font-size: 1.2rem;
+  width: 100%;
+  background: none;
+  padding: 0.5rem;
+  border: none;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.submitBtn {
+  border: 0;
+  margin: 4px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: var(--dark-green);
+  color: var(--light-yellow);
+  font-weight: bold;
+}

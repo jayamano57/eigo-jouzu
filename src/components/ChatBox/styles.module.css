@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 2rem 0;
+  gap: 1rem;
+  flex: 1;
+}
+
+.chatBox {
+  width: 90%;
+  max-width: 460px;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  opacity: 1;
+  word-break: break-word;
+}
+
+.chatBox:focus {
+  outline: none;
+}
+
+.chatBox:active {
+  opacity: 0.7;
+}
+
+.chatBox.sender {
+  color: var(--light-yellow);
+  background-color: var(--dark-green);
+  align-self: flex-end;
+}
+
+.chatBox.recipient {
+  color: black;
+  background-color: #f3ffea;
+  align-self: flex-start;
+}

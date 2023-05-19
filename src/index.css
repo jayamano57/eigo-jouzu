@@ -1,0 +1,18 @@
+:root {
+  /* variables */
+  --light-yellow: #f6f4d2;
+  --tea-green: #cbdfbd;
+  --dark-green: #4d7a2d;
+  --atomic-tangerine: #f19c79;
+  --chestnut: #a44a3f;
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--chestnut);
+  background-color: var(--tea-green);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
