@@ -20,9 +20,12 @@
 }
 
 .submitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 0;
   margin: 4px;
-  padding: 8px;
+  padding: 6px;
   border-radius: 4px;
   background-color: var(--dark-green);
   color: var(--light-yellow);
