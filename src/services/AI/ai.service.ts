@@ -4,7 +4,7 @@ export class AIServiceImpl implements AIService {
   constructor(private baseUrl = 'https://api.openai.com/v1/') {}
 
   async completion(message: string, emojis?: false): Promise<unknown> {
-    const prompt = `Proofread the following text message to a friend. If there is any Japanese in the message, translate it to english first. Fix all spelling errors and grammar mistakes. The recipient of the text message is a friend.${
+    const prompt = `Proofread the following text message to a friend. If there are any Japanese words or phrases in the message, translate them to English first. Fix all spelling errors and grammar mistakes. Do not put the outputted message in quotes.${
       emojis
         ? ' If it makes sense, you can one emoji in the message. The emoji can be either 😁, 💖, or 👍.'
         : ''
